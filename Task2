@@ -1,0 +1,10 @@
+#Task2
+n = input('Введите трехзначное число: ')
+m = 0
+if len(n) == 3:
+    for i in n:
+     m += int(i)
+    print(m)
+else:
+     print('Вы ввели не 3-х значное число')
+
