@@ -1,0 +1,7 @@
+#Task8
+n = int(input('1 часть(долька): '))
+m = int(input('2 часть(долька): '))
+k = int(input('В-те кол-во долек: '))
+if k % n == 0 or k % m == 0:
+     print('Yes')
+else: print('No')
