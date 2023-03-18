@@ -1,0 +1,8 @@
+
+num1= int(input('Введите первое натуральное число X от 1 до 1000: '))
+num2= int(input('Введите второе натуральное число Y от 1 до 1000: '))
+for i in range(num1):
+  for j in range(num2):
+   if(num1 == i + j and num2 == i * j):
+    print(i)
+    print(j)
