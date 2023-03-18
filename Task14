@@ -1,0 +1,13 @@
+n = abs(int(input('Введите целое число:  ')))
+s= 0
+k = 2
+for i in range(n):
+    if s != 1:
+        k = k ** i
+        if k <= n:
+            print(k, end=' ')
+            k = 2
+        else:
+            s = 1
+    else:
+        i = n
